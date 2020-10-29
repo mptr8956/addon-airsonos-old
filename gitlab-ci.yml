@@ -1,0 +1,14 @@
+---
+include: https://raw.githubusercontent.com/hassio-addons/organization/master/gitlabci/addon.yml
+
+variables:
+  ADDON_GITHUB_REPO: "mptr8956/addon-airsonos-old"
+  ADDON_SLUG: "airsono"
+  ADDON_TARGET: "airsono"
+
+  ADDON_ARMHF: "false"
+
+  ADDON_AARCH64_BASE: "hassioaddons/ubuntu-base-aarch64:5.2.1"
+  ADDON_AMD64_BASE: "hassioaddons/ubuntu-base-amd64:5.2.1"
+  ADDON_ARMV7_BASE: "hassioaddons/ubuntu-base-armv7:5.2.1"
+  ADDON_I386_BASE: "hassioaddons/ubuntu-base-i386:5.2.1"
